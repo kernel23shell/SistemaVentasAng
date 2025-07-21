@@ -7,7 +7,7 @@ using SistemaVenta.DTO;
 
 namespace SistemaVenta.BLL.Servicios.Contrato
 {
-    public interface IVentaService
+    public interface IVentaServicio
     {
         Task<VentaDTO> Registrar(VentaDTO modelo);
         Task<List<VentaDTO>> Historial(string buscarPor, string numeroVenta, string fechaInicio, string fechaFin);

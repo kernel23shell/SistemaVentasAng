@@ -14,7 +14,7 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace SistemaVenta.BLL.Servicios
 {
-    public class VentaService : IVentaService
+    public class VentaService : IVentaServicio
     {
         private readonly IVentaRepository _ventaRepositorio;
         private readonly IGenericRepository<DetalleVentum> _detalleVentaRepositorio;
